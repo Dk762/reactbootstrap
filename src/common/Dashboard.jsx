@@ -69,11 +69,11 @@ export default class Dashboard extends Component {
                       <div className="text-xs font-weight-bold text-info text-uppercase mb-1">Total Affected Population</div>
                       <div className="row no-gutters align-items-center">
                         <div className="col-auto">
-                          <div className="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                          <div className="h5 mb-0 mr-3 font-weight-bold text-gray-800">{((this.state.Global.TotalConfirmed/7787652122)*100).toFixed(3)}%</div>
                         </div>
                         <div className="col">
                           <div className="progress progress-sm mr-2">
-                            <div className="progress-bar bg-info" role="progressbar" style={{width: "50%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress-bar bg-info" role="progressbar" style={{width: "0.074%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                           </div>
                         </div>
                       </div>

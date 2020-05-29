@@ -8,7 +8,7 @@ import { Button } from 'react-bootstrap';
 export default class Search extends Component {
     constructor(props){
         super(props);
-        this.state = {
+        this.state = {  
             startDate: "",
             endDate: "",
         }
